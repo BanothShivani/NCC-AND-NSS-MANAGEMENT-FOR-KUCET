@@ -1,0 +1,47 @@
+.fotter_box {
+    width: 100%;
+    height: auto;
+    background: rgb(194, 186, 202);
+    /* margin: 2%; */
+    padding: 4%;
+    padding-top: 0.5%;
+}
+.socicn {
+    font-size: 30px;
+}
+.social_media_links {
+    width: 100%;
+    height: auto;
+    border: 1px solid white;
+}
+.social_media_links ul {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.social_media_links ul li {
+    list-style: none;
+    padding-left:12%;
+    padding-top: 1%;
+}
+
+.social_media_links ul li a {
+    color: white;
+    text-decoration: none;
+}
+.fotter_columns {
+    display: flex;
+}
+.fotter_rows {
+    padding: 3%;
+    border: 1px solid white;
+}
+.fotter_rows button {
+    padding: 5%;
+    font-size: 120%;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    margin-top: 4%;
+}

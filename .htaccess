@@ -1,0 +1,87 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME}	!-f
+
+# admins
+
+RewriteRule ^ad1$ assets/images/admins/Md.Asim Iqbal(NSS).jpg [NC,L]
+RewriteRule ^ad2$ assets/images/admins/Lt.Dr.K.VijayKumar(NCCarmy).jpg [NC,L]
+RewriteRule ^ad3$ assets/images/admins/Dr.B.AnilKumar(NCCairwing).jpg [NC,L]
+
+#coord
+RewriteRule ^cd1$ assets/images/cordinator/E.Rajeshwari(NSS).jpg [NC,L]
+RewriteRule ^cd2$ assets/images/cordinator/A.SaiTeja(NCCair).jpg [NC,L]
+RewriteRule ^cd3$ assets/images/cordinator/B.Chandan(AirWing).jpg [NC,L]
+RewriteRule ^cd4$ assets/images/cordinator/D.Akhila(NCCair).jpg [NC,L]
+RewriteRule ^cd5$ assets/images/cordinator/I.Sanjana(NccArmy).jpg [NC,L]
+RewriteRule ^cd6$ assets/images/cordinator/B.Nagesh(NCCarmy).jpg [NC,L]
+RewriteRule ^cd7$ assets/images/cordinator/B.HariPriya(NCCarmy).jpg [NC,L]
+
+#carosal
+RewriteRule ^logo$ assets/images/kulogo.jpg [NC,L]
+RewriteRule ^h3$ assets/images/h3.jpg [NC,L]
+RewriteRule ^h2$ assets/images/h2.jpg [NC,L]
+RewriteRule ^h1$ assets/images/h1.jpg [NC,L]
+RewriteRule ^av$ assets/images/user.png [NC,L]
+
+# css
+RewriteRule ^naviccss$ assets/css/navic.css [NC,L]
+RewriteRule ^index$ assets/css/index.css [NC,L]
+RewriteRule ^fotter$ assets/css/fotter.css [NC,L]
+RewriteRule ^applicationcss$ assets/css/application_form.css [NC,L]
+
+# serpgs
+RewriteRule ^indexpg$ index.php [NC,L]
+RewriteRule ^fottercomments$ assets/scripts/comments_fotter.php [NC,L]
+RewriteRule ^applereq$ assets/scripts/application_request.php [NC,L]
+RewriteRule ^logs$ assets/scripts/checklog.php [NC,L]
+RewriteRule ^logout$ assets/scripts/logout.php [NC,L]
+RewriteRule ^changedts$ assets/scripts/updatevalues.php [NC,L]
+RewriteRule ^nss_map_View$ assets/scripts/mapsview.php [NC,L]
+RewriteRule ^ncc_map_View$ assets/scripts/mapsviewncc.php [NC,L]
+RewriteRule ^calup$ assets/scripts/calenderup.php [NC,L]
+RewriteRule ^applereqnss$ assets/scripts/nssapplreq.php [NC,L]
+RewriteRule ^applesucc$ assets/scripts/applesucc.php [NC,L]
+RewriteRule ^applefail$ assets/scripts/applefail.php [NC,L]
+RewriteRule ^comments_page$ assets/scripts/comments_page.php [NC,L]
+RewriteRule ^cmtrpl$ assets/scripts/rp_cmts.php [NC,L]
+
+
+#phpscripts
+RewriteRule ^admindashboard$ assets/phpscripts/setups/admindashboard.php [NC,L]
+RewriteRule ^coordinatordashboard$ assets/phpscripts/setups/coordinatordashboard.php [NC,L]
+
+#admindashboardpgs
+RewriteRule ^studentslist$ assets/phpscripts/setups/admindashboardpgs/studentslist.php [NC,L]
+RewriteRule ^co_Ordinatorslist$ assets/phpscripts/setups/admindashboardpgs/co_ordinatorslist.php [NC,L]
+RewriteRule ^calendar$ assets/phpscripts/setups/admindashboardpgs/calendarlist.php [NC,L]
+RewriteRule ^welcome$ assets/phpscripts/setups/admindashboardpgs/welcome.php [NC,L]
+RewriteRule ^applicationsrecieve$ assets/phpscripts/setups/admindashboardpgs/applicationslist.php [NC,L]
+RewriteRule ^nssapplelist$ assets/phpscripts/setups/admindashboardpgs/applnsslist.php [NC,L]
+RewriteRule ^changevalue$ assets/phpscripts/setups/admindashboardpgs/changeprofile.php [NC,L]
+RewriteRule ^crtnew$ assets/phpscripts/setups/admindashboardpgs/createnew.php [NC,L]
+RewriteRule ^delusr$ assets/phpscripts/setups/admindashboardpgs/deldata.php [NC,L]
+RewriteRule ^coocrtnew$ assets/phpscripts/setups/admindashboardpgs/coordreg.php [NC,L]
+RewriteRule ^coodelu$ assets/phpscripts/setups/admindashboardpgs/coodel.php [NC,L]
+
+# coodashboardpgs
+RewriteRule ^coordinatorslist$ assets/phpscripts/setups/coordinatordashboard/co_ordinatorslist.php [NC,L]
+RewriteRule ^coostudentslist$ assets/phpscripts/setups/coordinatordashboard/studentslist.php [NC,L]
+
+# attachments
+RewriteRule ^applicationsnss$ assets/attachments/applicationnss.php [NC,L]
+RewriteRule ^applications$ assets/attachments/applicationsdetails.php [NC,L]
+RewriteRule ^login$ assets/attachments/adminlogin.php [NC,L]
+RewriteRule ^schedule$ assets/attachments/schedule.php [NC,L]
+RewriteRule ^contact$ assets/attachments/contact.php [NC,L]
+RewriteRule ^ncc$ assets/attachments/ncc.php [NC,L]
+RewriteRule ^nss$ assets/attachments/nss.php [NC,L]
+RewriteRule ^kucet$ assets/attachments/kucet.php [NC,L]
+
+
+ErrorDocument 404 http://localhost/kunccnss
+
+
+
+
+
+
